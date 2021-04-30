@@ -1,62 +1,115 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-## About Laravel
+</head>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<body style="text-align:justify">
+    <div>
+        <h1> Sistema Album de fotos</h1>
+         <p>Sistema web conta azul que foi refeito em termos acadêmicos pela plataforma B7web é desenvolvido em linguagem
+            PHP orientada a objetos
+            métodos e bibliotecas da linguagem PHP e dos padrões do banco de dados
+        </p>
+    </div>
+    <br>
+    <h2>Utilizado para desenvolver o projeto foram: </h2>
+    <div>
+        <h3>Ferramentas Utilizadas em front-end</h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/html.png" width="" height="82" style="border-radius: 10px;"> &nbsp; <strong
+                style='text-align:justify;'>HTML 5 </strong><br />
+            <br />
+            <img src="imgReadme/css.png" width="" height="106" style="border-radius: 10px;">&nbsp; <strong
+                style='text-align:justify;'>CSS 3<br />
+                <br />
+                <img src="imgReadme/js.png" width="" height="82" style="border-radius: 10px;">&nbsp;<strong
+                    style='text-align:justify;'>JS </strong><br />
+                <br />
+        </ul>
+    </div>
+    <div>
+        <h3>Linguagem feita em seu Backend </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/PHP.jpg" width="" height="60"
+                style="border-radius: 10px; text-align:justify;">&nbsp;<strong style='text-align:justify;'>PHP na versão
+                7.4 </strong><br />
+        </ul>
+    </div>
+    <div>
+        <h3>Servidor Utilizado </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/xampp.jpg" width="" height="90" style="border-radius: 10px; "> &nbsp;<strong
+                style='text-align:justify'>Xampp</strong><br />
+        </ul>
+    </div>
+    <div>
+        <h3>Banco de dados </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/mysql.png" width="" height="90" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>MYSQL</strong><br />
+        </ul>
+    </div>
+    <div>
+        <h3>Softwares e utilitários </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/mysql-workbench-icon.png" width="" height="90" style="border-radius: 10px;">
+            &nbsp;<strong style='text-align:justify;'>Mysql Workbench </strong><br />
+            <br />
+            <img src="imgReadme/phpmyadmin-logo.png" width="" height="60" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'> PHPMYADMIN </strong><br />
+            <br />
+        </ul>
+        <br>
+    </div>
+    <div>
+        <h3>Bibliotecas PHP para configuração do projeto </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/pdo.png" width="" height="67" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>PDO</strong><br />
+            <br />
+            <img src="imgReadme/POO.png" width="" height="60" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>POO</strong><br />
+            <br />
+            <img src="imgReadme/composer.png" width="" height="67" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>COMPOSER</strong><br />
+            <br />
+            <img src="imgReadme/mpdf.png" width="" height="110" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>MPDF</strong><br />
+            <br />
+            <img src="imgReadme/php-mailer.png" width="" height="65" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'>PHPMAIL</strong><br />
+        </ul>
+        <br>
+    </div>
+    <div>
+        <h3>Arquitetura </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/mvc.png" width="" height="65" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'> MVC </strong><br />
+        </ul>
+    </div>
+    <div>
+        <h3>Editor de código </h3>
+        <hr />
+        <ul>
+            <img src="imgReadme/vscode.png" width="" height="65" style="border-radius: 10px;"> &nbsp;<strong
+                style='text-align:justify;'> Visual Studio Code </strong><br />
+        </ul>
+    </div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+</body>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+</html>
